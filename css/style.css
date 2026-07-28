@@ -1,0 +1,637 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    padding-top:80px;
+}
+
+.navbar{
+
+    box-shadow:0px 3px 10px rgba(0,0,0,0.2);
+
+}
+
+.navbar-brand{
+
+    font-weight:bold;
+
+    font-size:24px;
+
+}
+
+.nav-link{
+
+    font-size:17px;
+
+    margin-left:10px;
+
+}
+
+.nav-link:hover{
+
+    color:yellow !important;
+
+}
+.hero{
+
+    padding:100px 0;
+
+    background:#f8f9fa;
+
+}
+
+.hero h1{
+
+    color:#198754;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+}
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+.btn{
+
+    border-radius:30px;
+
+    padding:12px 30px;
+
+}
+.hero{
+
+    padding:100px 0;
+
+    background:#f8f9fa;
+
+}
+
+.hero h1{
+
+    color:#198754;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+}
+/*=====================
+    Tentang Desa
+======================*/
+
+.about{
+
+    background:#ffffff;
+
+}
+
+.about img{
+
+    border-radius:20px;
+
+    transition:.3s;
+
+}
+
+.about img:hover{
+
+    transform:scale(1.02);
+
+}
+
+.about h2{
+
+    color:#212529;
+
+}
+
+.about p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+/*=========================
+        UMKM
+==========================*/
+
+.umkm{
+
+    background:#f8f9fa;
+
+}
+
+.umkm-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    transition:.3s;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.umkm-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.umkm-card img{
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.umkm-card h4{
+
+    font-weight:bold;
+
+}
+/*==========================
+        BERITA
+==========================*/
+
+.news{
+
+    background:white;
+
+}
+
+.news-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.news-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.news-card img{
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.news-card h4{
+
+    font-weight:bold;
+
+}
+/*=========================
+        GALERI
+==========================*/
+
+.gallery{
+
+    background:#f8f9fa;
+
+}
+
+.gallery-img{
+
+    width:100%;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.4s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.gallery-img:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+/*=========================
+        LOKASI
+==========================*/
+
+.location{
+
+    background:white;
+
+}
+
+.location iframe{
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+/*=====================
+    BACK TO TOP
+======================*/
+
+#topBtn{
+
+    position:fixed;
+    
+    bottom:30px;
+    
+    right:30px;
+    
+    display:none;
+    
+    width:55px;
+    
+    height:55px;
+    
+    border:none;
+    
+    border-radius:50%;
+    
+    background:#198754;
+    
+    color:white;
+    
+    font-size:22px;
+    
+    cursor:pointer;
+    
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    
+    transition:.3s;
+    
+    z-index:999;
+    
+    }
+    
+    #topBtn:hover{
+    
+    background:#157347;
+    
+    transform:translateY(-5px);
+    
+    }
+/* ==========================
+        HERO PROFIL
+========================== */
+
+.profile-hero{
+    height:70vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:76px;
+    background:
+        linear-gradient(rgba(25,135,84,.55), rgba(25,135,84,.55)),
+        url("../images/SUKOREJO\ \(2\).png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-hero h1{
+
+    font-size:58px;
+
+    font-weight:bold;
+
+}
+
+.profile-hero p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+/* ==========================
+      VISI MISI
+========================== */
+
+.vision{
+
+    background:#f8f9fa;
+
+}
+
+.vision-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    height:100%;
+
+    transition:.4s;
+
+}
+
+.vision-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.vision-card i{
+
+    font-size:55px;
+
+    color:#198754;
+
+    margin-bottom:20px;
+
+}
+
+.vision-card h3{
+
+    margin-bottom:20px;
+
+    font-weight:bold;
+
+}
+
+.vision-card p{
+
+    text-align:justify;
+
+}
+
+.vision-card ul{
+
+    padding-left:20px;
+
+}
+
+.vision-card li{
+
+    margin-bottom:12px;
+
+}
+
+/* ==========================
+        POTENSI DESA
+========================== */
+
+.potensi{
+
+    background:#ffffff;
+
+}
+
+.potensi-card{
+
+    background:white;
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    height:100%;
+
+}
+
+.potensi-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.potensi-card i{
+
+    font-size:55px;
+
+    color:#198754;
+
+    margin-bottom:20px;
+
+}
+
+.potensi-card h4{
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+
+}
+
+.potensi-card p{
+
+    color:#666;
+
+    text-align:justify;
+
+}
+/*====================================
+            HERO UMKM
+====================================*/
+
+.umkm-hero{
+
+    height:70vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:76px;
+
+    background:
+    linear-gradient(rgba(25,135,84,.55),rgba(25,135,84,.55)),
+    url("../images/SUKOREJO\ \(2\).png");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.umkm-hero h1{
+
+    font-size:58px;
+
+    font-weight:bold;
+
+}
+
+.umkm-hero p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+/*====================================
+        CARD UMKM
+====================================*/
+
+.umkm-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.umkm-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.umkm-card img{
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.umkm-card .card-body{
+
+    padding:25px;
+
+}
+
+.umkm-card h5{
+
+    font-weight:700;
+
+    color:#198754;
+
+}
+.umkm-card{
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: .4s;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.umkm-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.umkm-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.umkm-card .card-body{
+    padding:25px;
+}
+
+.umkm-card .card-title{
+    font-weight:bold;
+    color:#198754;
+}
+
+.umkm-card .badge{
+    margin-top:10px;
+}
+/*======================================
+        DETAIL HERO
+=======================================*/
+
+.detail-hero{
+
+    margin-top:80px;
+
+    background:linear-gradient(135deg,#198754,#4CAF50);
+
+    color:white;
+
+    padding:90px 0;
+
+    text-align:center;
+
+}
+
+.detail-hero h1{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+}
+
+.detail-hero p{
+
+    font-size:20px;
+
+    opacity:.9;
+
+}
