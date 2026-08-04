@@ -744,3 +744,49 @@ body{
     opacity:.9;
 
 }
+
+/* =========================
+   RESPONSIVE TAMPILAN HP
+========================= */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-brand img {
+        width: 65px !important;
+    }
+
+    /* Bagian detail produk */
+    .detail-produk {
+        padding: 30px 15px;
+    }
+
+    /* Gambar produk */
+    .detail-produk img {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto 25px;
+    }
+
+    /* Judul produk */
+    .detail-produk h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    /* Deskripsi produk */
+    .detail-produk p {
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+}
