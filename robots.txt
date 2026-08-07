@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sukorejoklaten.github.io/UMKM-Desa-Sukorejo/sitemap.xml
